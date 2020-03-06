@@ -1,4 +1,4 @@
-# My-YouTubre-Channel-Does-Not-Suck-Anymore
+# My-YouTube-Channel-Does-Not-Suck-Anymore
 YouTube Prediction and Recommendation Web Application
 Hi, welcome to "My Channel Does Not Suck Anymore"!!!
 This website is a tool that uses the power of Machine Learning (Natural Language Processing)to help YouTubers to come up with more attractive content from viewers pespective with two solutions!
