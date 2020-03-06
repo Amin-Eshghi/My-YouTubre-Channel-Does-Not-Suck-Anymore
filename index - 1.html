@@ -1,0 +1,30 @@
+﻿<!doctype html>
+
+<title>Simple tables</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style1.css') }}">
+<div class=page>
+  <h1>Channel Stats Prediction</h1>
+  {% for table in tables %}
+    <h2>{{titles[loop.index]}}</h2>
+    {{ table|safe }}
+  {% endfor %}
+</div>
+
+
+          <form id='input' method='post' action='graph'>
+          
+
+            
+                <p>
+                    For same Channel ID  <input type='hidden' name='channelid'  value = '{{channel1}}'  size="50"/>
+                </p>
+
+                <p>
+                    Let's try a new content if we can do better: <input type='text' name='content'  size="100" />
+                </p>
+                
+                 <p>
+                    Time Since Published (months): <input type='text' name='time_dur'  size="25" />
+                </p>
+                    <input type="submit" value="Submit"  size="50">
+            </form>
